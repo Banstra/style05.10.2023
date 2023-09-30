@@ -1,0 +1,15 @@
+D:\Солдатова\godhelpme\style\bin\Debug\style.exe.config
+D:\Солдатова\godhelpme\style\bin\Debug\style.exe
+D:\Солдатова\godhelpme\style\bin\Debug\style.pdb
+D:\Солдатова\godhelpme\style\obj\Debug\style.csproj.AssemblyReference.cache
+D:\Солдатова\godhelpme\style\obj\Debug\MainWindow.g.cs
+D:\Солдатова\godhelpme\style\obj\Debug\App.g.cs
+D:\Солдатова\godhelpme\style\obj\Debug\style_MarkupCompile.cache
+D:\Солдатова\godhelpme\style\obj\Debug\style_MarkupCompile.lref
+D:\Солдатова\godhelpme\style\obj\Debug\MainWindow.baml
+D:\Солдатова\godhelpme\style\obj\Debug\style.g.resources
+D:\Солдатова\godhelpme\style\obj\Debug\style.Properties.Resources.resources
+D:\Солдатова\godhelpme\style\obj\Debug\style.csproj.GenerateResource.cache
+D:\Солдатова\godhelpme\style\obj\Debug\style.csproj.CoreCompileInputs.cache
+D:\Солдатова\godhelpme\style\obj\Debug\style.exe
+D:\Солдатова\godhelpme\style\obj\Debug\style.pdb
