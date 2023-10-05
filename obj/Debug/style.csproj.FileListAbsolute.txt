@@ -13,3 +13,4 @@ D:\Солдатова\godhelpme\style\obj\Debug\style.csproj.GenerateResource.ca
 D:\Солдатова\godhelpme\style\obj\Debug\style.csproj.CoreCompileInputs.cache
 D:\Солдатова\godhelpme\style\obj\Debug\style.exe
 D:\Солдатова\godhelpme\style\obj\Debug\style.pdb
+D:\Солдатова\godhelpme\style\obj\Debug\App.baml

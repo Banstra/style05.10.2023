@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:style"
         mc:Ignorable="d"
         Title="MainWindow" MinHeight="450" MinWidth="1090">
-    <Grid Background="LightGray">
+    <Grid Background="{StaticResource LightGray}">
         
         <Grid.ColumnDefinitions >
-            <ColumnDefinition Width=".2*" >
+            <ColumnDefinition Width="auto" >
             </ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
@@ -41,37 +41,20 @@
         </Grid>
         
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Column="0" Width="auto">
-            <Button Name="menu" Background="LightGray" >
+            <Button Name="menu" Background="{StaticResource LightGray}" Style="{StaticResource button}">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/rESOURCES/Logo.png" Stretch="UniformToFill" HorizontalAlignment="Left" />
                     <TextBlock VerticalAlignment="Center" FontSize="30">Dashboard</TextBlock>
                 </StackPanel>
+
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"></Setter>
                     </Style>
-                    <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="{x:Null}"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="{x:Type Button}">
-                                    <Border Background="{TemplateBinding Background}">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="white"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
                 </Button.Resources>
 
-
             </Button>
-            
+           
         </StackPanel>
         
     </Grid>
